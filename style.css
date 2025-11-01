@@ -15,9 +15,9 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 40px; /* space between projects */
-  flex-wrap: nowrap; /* keep all in one line */
-  overflow-x: auto; /* allows scroll if screen too small */
+  gap: 40px; 
+  flex-wrap: nowrap; 
+  overflow-x: auto; 
   padding-bottom: 10px;
 }
 
@@ -53,28 +53,3 @@
   font-size: 0.95rem;
 }
 
-
-.contact-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-
-.contact-form {
-  flex: 1;
-  min-width: 300px;
-}
-
-.contact-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-.contact-image img {
-  width: 300px;
-  height: auto;
-  border-radius: 20px;
-}
