@@ -1,4 +1,10 @@
-<link rel="stylesheet" href="styles.css">.
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+/* ===== PROJECT SECTION FIX (1 hàng ngang) ===== */
 #projects {
   background-color: #fff5f7;
   padding: 60px 20px;
@@ -15,9 +21,9 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 40px; 
-  flex-wrap: nowrap; 
-  overflow-x: auto; 
+  gap: 40px; /* space between projects */
+  flex-wrap: nowrap; /* keep all in one line */
+  overflow-x: auto; /* allows scroll if screen too small */
   padding-bottom: 10px;
 }
 
@@ -52,4 +58,3 @@
   color: #555;
   font-size: 0.95rem;
 }
-
